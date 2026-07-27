@@ -1,11 +1,12 @@
 # Semantic Primitives
-**The primitive behavioral vocabulary for QMS AI Agents.**
 
-This document provides the primitive behavioral vocabulary for designing AI agent instructions in a Quality Management System (QMS).
+**This document provides the primitive behavioral vocabulary used during the design of AI agent instruction sets for Quality Management Systems (QMS). These design-time specifications are intended for developers or compiler LLMs building complete agent instruction sets and are not intended to be inserted directly into an agent's runtime system instructions.**
 
-These concepts are intentionally presented as **semantic primitives** rather than complete instructions. Each concept functions as a high-information token that leverages an LLM's existing semantic understanding of logic, compliance, and systems design. Their purpose is to provide high-level behavioral anchors that can be expanded with an LLM into organization-specific instruction sets, workflows, and implementation patterns.
+These concepts are intentionally presented as **semantic primitives** rather than complete instructions. They function as compact semantic building blocks that leverage an LLM's existing semantic understanding of logic, compliance, and systems design. 
 
-> **Implementation Note:** Applying these primitives in tandem with the specific operational needs of your intended agent is required to achieve successful governance. The brief annotations provided below are not definitions—they are **disambiguations** designed to steer the LLM toward a specific operational behavior.
+The expected use case is to select the primitives appropriate for the intended workflow, combine them with organization-specific requirements, and use an LLM to generate the final instruction set. Their purpose is to provide high-level behavioral anchors that can be expanded alongside your organization's specific operational workflows.
+
+The brief annotations provided below are not definitions—they are disambiguation notes intended to steer the LLM toward specific operational behaviors during instruction assembly.
 
 ---
 
