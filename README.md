@@ -14,7 +14,7 @@ This framework is not intended to define:
 * Batch disposition
 * Laboratory result interpretation
 * Release authorization
-* Replacement of Quality Unit responsibilities
+* Replacement of Quality Assurance or Compliance Officer responsibilities
 * Validated AI system requirements
 
 ---
