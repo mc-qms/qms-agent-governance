@@ -11,8 +11,8 @@ Rather than focusing only on final outputs, this framework provides concepts for
 
 This framework is not intended to define:
 * Autonomous quality decisions
-* Batch disposition
-* Laboratory result interpretation
+* Product or lot disposition
+* Inspection or test result interpretation
 * Release authorization
 * Replacement of Quality Unit responsibilities
 * Validated AI system requirements
@@ -60,7 +60,7 @@ The example blueprints demonstrate how an instruction set could be framed using 
 
 This repository provides an experimental framework and conceptual architectural patterns for educational and developmental purposes only.
 * **No Warranty:** The primitives and blueprints provided herein are offered "AS IS" without warranty of any kind, express or implied.
-* **Not Validated:** This framework does not constitute validated software under requirements associated with 21 CFR Part 11, EU Annex 11, GAMP 5, or any other global regulatory standard.
+* **Not Validated:** This framework does not constitute validated software under requirements associated with ISO 9001, AS9100, FDA/EMA regulations, or any other global quality standard.
 * **User Responsibility:** The creators of this repository accept no responsibility for implementations, deployments, or outcomes resulting from the use of these primitives. It is the sole responsibility of the implementing organization and its Quality Unit to independently verify, validate, and ensure that any AI system deployed in a regulated environment complies with all applicable internal procedures and international regulatory requirements.
 
 ---
